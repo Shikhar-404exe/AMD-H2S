@@ -1,0 +1,62 @@
+name: civicmind
+description: Smart City + Social Good + Cognitive Support System
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  fl_chart: ^0.66.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  flutter_dotenv: ^5.1.0
+  intl: ^0.18.1
+
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  image_picker: ^1.0.5
+
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  firebase_messaging: ^14.7.0
+  firebase_analytics: ^10.7.0
+  firebase_crashlytics: ^3.4.0
+
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  logger: ^2.0.2
+
+  permission_handler: ^11.0.1
+  path_provider: ^2.1.1
+
+  connectivity_plus: ^5.0.2
+
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
